@@ -21,6 +21,7 @@ export default function Home() {
     "Express",
     "Mongodb",
     "Docker",
+    "Firebase",
     "Azure",
     "Javascript",
     "Python",
@@ -29,10 +30,10 @@ export default function Home() {
   const projects = [
     
     {
-      title: "BaseBook: Book Selling Platform",
-      description:
-        "Created a platform for users to add, showcase, and sell books using Firebase for database, authentication, and cloud storage.",
-      tech: ["React", "Firebase", "Cloud Storage"],
+      title: "BaseBook - Online Book Marketplace",
+      description: 
+        "Engineered a full-stack marketplace platform enabling users to buy and sell books seamlessly. Implemented real-time data synchronization, secure user authentication, and cloud storage for book listings using Firebase services. Features include dynamic search, user profiles, and streamlined listing management.",
+      tech: ["React.js", "Firebase Authentication", "Cloud Firestore", "Cloud Storage", "Context API", "CSS3"],
       link: "https://github.com/MithunGowdaHC/BASEBOOK",
     },
     {
@@ -46,16 +47,16 @@ export default function Home() {
       title: "Trendura - E-commerce Website",
       description:
         "Designed a responsive e-commerce website for clothing with dynamic filters and seamless user experience using ReactJS and Tailwind CSS.",
-      tech: ["ReactJS", "Tailwind CSS"],
+      tech: ["ReactJS","Context API", "Tailwind CSS"],
       link: "https://github.com/MithunGowdaHC/Trendura",
     },
     {
-      title: "Mentors-N-Mentee (Anonymous Communication Platform)",
-      description:
-        "Collaboratively developed a platform enabling secure, anonymous communication between mentors and students using HTML, CSS, and JavaScript.",
-      tech: [ "JavaScript"],
+      title: "Mentors-N-Mentee - Anonymous Mentorship Platform",
+      description: 
+        "Engineered a unique communication platform that facilitates confidential interactions between mentors and students. Implemented secure anonymous messaging, user role management, and privacy-focused features. Built with vanilla JavaScript to ensure lightweight performance and accessibility.",
+      tech: ["JavaScript", "HTML5", "CSS3", "Local Storage"],
       link: "https://github.com/MithunGowdaHC/MandM",
-    },
+    }
     
   ];
   
@@ -124,7 +125,7 @@ export default function Home() {
           </ul>
         </motion.div>
         <motion.a
-          href="https://drive.google.com/file/d/10zpZlZqWR6U3wg-CFBxBX21NNeXiti3g/view"
+          href="https://drive.google.com/file/d/1gsxMQoTIysoIl1yfntJq3foswmbJoora/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="absolute top-4 right-4 bg-white/10 text-white px-4 py-3 rounded-full border border-white/20 hover:bg-white/20 transition-colors"
